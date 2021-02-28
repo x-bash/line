@@ -6,6 +6,4 @@ dev.line.push(){
     git remote remove github 2>/dev/null
     git remote add github git@github.com:x-bash/line.git
     git push github
-
-    git push origin
 }

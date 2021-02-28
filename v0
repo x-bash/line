@@ -43,6 +43,7 @@ line_fmap(){
     done
 }
 
+# alias line_no='cat -n'
 line_no() {
     awk '{ print NR ": " $0  }' "${1:--}"
 }
